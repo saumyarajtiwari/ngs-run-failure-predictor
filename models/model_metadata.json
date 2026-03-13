@@ -1,0 +1,24 @@
+{
+  "feature_names": [
+    "lib_conc_ng_ul",
+    "frag_size_bp",
+    "load_conc_pm",
+    "cluster_density_k_mm2",
+    "din_score",
+    "undetermined_pct",
+    "kit_age_days",
+    "room_temp_c",
+    "lib_method",
+    "calib_status",
+    "operator_exp_years"
+  ],
+  "rf_accuracy": 0.825,
+  "rf_auc": 0.6451,
+  "xgb_accuracy": 0.79,
+  "xgb_auc": 0.6327,
+  "ensemble_accuracy": 0.79,
+  "ensemble_auc": 0.646,
+  "n_training_runs": 800,
+  "n_test_runs": 200,
+  "data_source": "synthetic"
+}
