@@ -125,3 +125,13 @@ This project is part of a three-system AI laboratory intelligence platform:
 1. NGS Run Failure Predictor (this repository)
 2. Sample Tracking System (coming soon)
 3. Lab Workflow Optimizer (coming soon)
+
+## Docker
+
+Run the entire system with one command:
+```bash
+docker pull saumyarajtiwari/ngs-run-failure-predictor:v1.0
+docker run -p 8000:8000 -p 8501:8501 saumyarajtiwari/ngs-run-failure-predictor:v1.0
+```
+
+Docker Hub: https://hub.docker.com/r/saumyarajtiwari/ngs-run-failure-predictor
