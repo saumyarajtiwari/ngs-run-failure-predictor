@@ -1,5 +1,7 @@
 # NGS Run Failure Predictor
 
+**Live Demo:** https://ngs-run-failure-predictor-sljpbzcgn4rntghf4rqb9x.streamlit.app/
+
 **Live Demo:** https://your-streamlit-url-here
 
 A machine learning system that predicts sequencing run failure on the MGI platform by analysing pre-run QC parameters — before the run begins.
